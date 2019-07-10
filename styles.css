@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+h1{
+  font-family: futura;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  object-fit: cover;
+  margin: 20px;
+  width: 500px;
+  border: 10px solid white;
+
+}
+
+.row1 {
+  display:flex;
+  justify-content: space-around;
+
+}
+
+.row2{
+  display: flex;
+  justify-content: center;
+
+}
+
+.row2 img {
+  width: 200px;
+}
+
+.row3{
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
