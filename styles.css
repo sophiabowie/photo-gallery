@@ -2,33 +2,39 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #deeeff;
 }
 
-h1{
+.title{
   font-family: futura;
-  color: white;
+  font-size: 40px;
+  color: #0c3259;
   display: flex;
   justify-content: center;
+  margin: 20px;
 }
 
 img{
   object-fit: cover;
   margin: 20px;
   width: 500px;
-  border: 10px solid white;
-
+  border: 10px double #0c3259;
 }
 
 .row1 {
   display:flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 20px;
+}
 
+.row1 img{
+  width: 550px;
 }
 
 .row2{
   display: flex;
   justify-content: center;
+  margin: 20px;
 
 }
 
@@ -36,8 +42,29 @@ img{
   width: 200px;
 }
 
-.row3{
+.row3 {
+  display:flex;
+  justify-content: center;
+}
+
+.row3 img {
+  height: 400px;
+  width: 1160px;
+}
+
+.lastrow {
   display: flex;
-  justify-content: space-around;
-  margin: 30px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.lastrow img{
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 1200px){
+  div{
+    flex-wrap: wrap;
+  }
 }
